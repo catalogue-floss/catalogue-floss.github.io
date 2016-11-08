@@ -1258,15 +1258,28 @@ prouveurs en sortie (automatiques, interactifs).</span></li>
     history: true,
     center: true,
     touch: true,
+    slideNumber: true,
     hideAddressBar: true,
-    viewDistance: 1,
-    width: 960,
-    height: 700,
-  	// Factor of the display size that should remain empty around the content
-  	margin: 0.1,
-  	// Bounds for smallest/largest possible scale to apply to content
-  	minScale: 0.2,
-  	maxScale: 1.0,
+    viewDistance: 2,
+
+    // Number of milliseconds between automatically proceeding to the
+    // next slide, disabled when set to 0, this value can be overwritten
+    // by using a data-autoslide attribute on your slides
+    autoSlide: 0,
+
+    width: "100%",
+       height: "100%",
+       margin: 0.1,
+       minScale: 1.0,
+       maxScale: 1.0,
+    // Stop auto-sliding after user input
+    autoSlideStoppable: true,
+
+    // Use this method for navigation when auto-sliding
+    autoSlideMethod: Reveal.navigateNext,
+
+    // Enable slide navigation via mouse wheel
+    mouseWheel: true,
 
   // available themes are in /css/theme
       theme: Reveal.getQueryHash().theme || 'inria',
