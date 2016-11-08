@@ -1,0 +1,919 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>Catalogue Logiciels Libres Inria</title>
+
+<meta name="description" content="Catalogue Logiciels Libres Inria">
+
+  <meta name="author" content="15 Novembre 2016" />
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<link rel="stylesheet" href="css/reveal.css">
+<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+
+<!-- For syntax highlighting -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
+
+
+<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+<script>
+  document.write( '<link rel="stylesheet" href="css/print/' +
+    ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) +
+    '.css" type="text/css" media="print">' );
+</script>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+<link rel="stylesheet" href="plugin/presentable/presentable.css">
+
+
+<!--[if lt IE 9]>
+<script src="lib/js/html5shiv.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<div class="reveal">
+
+<!-- Any section element inside of this container is displayed as a slide -->
+<div class="slides">
+
+  <section>
+      <section>
+          <h1>Your Presentation Title Here</h1>
+          <!-- Depending  on your version of reveal.js you may also
+          have a script tag in this section -->
+      </section>
+      <section>
+          <h2>Table of Contents</h2>
+          <nav id="presentable-toc" class="revealjs"></nav>
+      </section>
+  </section>
+
+<section id="un-hello-world" class="level3">
+<h3>Un Hello World!</h3>
+<div class="sourceCode"><pre class="sourceCode java"><code class="sourceCode java"><span class="kw">public</span> <span class="dt">static</span> <span class="dt">void</span> <span class="fu">main</span>(String<span class="kw">... </span>args) {
+    System.<span class="fu">out</span>.<span class="fu">println</span>(<span class="st">&quot;Hello world!&quot;</span>);
+}</code></pre></div>
+</section>
+<section id="du-code-numéroté" class="level2">
+<h2>Du code numéroté</h2>
+<div class="sourceCode" startFrom="5"><table class="sourceCode c numberLines"><tr class="sourceCode"><td class="lineNumbers"><pre>5
+6
+7
+8
+</pre></td><td class="sourceCode"><pre><code class="sourceCode c"><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> *argv[]) {
+  printf(<span class="st">&quot;Hello world!</span><span class="ch">\n</span><span class="st">&quot;</span>);
+  <span class="kw">return</span> <span class="dv">0</span>;
+}</code></pre></td></tr></table></div>
+</section>
+<section id="des-énumérations" class="level2">
+<h2>Des énumérations</h2>
+<ul>
+<li>Apache</li>
+<li>BSD</li>
+<li>GPL
+<ul>
+<li>GPLv2</li>
+<li>GPLv3</li>
+</ul></li>
+<li>MIT</li>
+</ul>
+</section>
+<section id="des-listes-numérotées" class="level2">
+<h2>Des listes numérotées</h2>
+<ol type="1">
+<li>Récupérer le projet</li>
+<li>Installer <code>pandoc</code></li>
+<li>Installer les dépendances
+<ol type="a">
+<li><code>texlive-latex-base</code></li>
+<li><code>latex-beamer</code></li>
+</ol></li>
+<li>Installer un lecteur (<code>impressive</code>)</li>
+</ol>
+</section>
+<section id="axel" class="level2">
+<h2>AXEL</h2>
+<ul>
+<li>Logo du logiciel :</li>
+<li>Image représentative du logiciel :</li>
+<li><code>Description technologique</code> AXEL est un logiciel permettant la construction et la modélisation de formes géométriques algébriques.</li>
+<li>Mots-clés : CAO, Modélisation 3D géométrique et algébrique</li>
+<li>Contact : Anais Ducoffe (anais.ducoffe@inria.fr)</li>
+<li>Centres : CRI Sophia Antipolis - Méditerranée</li>
+<li>Structures INRIA impliquées : GALAAD2</li>
+<li>Langages : Qt (50000)</li>
+<li>Environnements logiciel d'exécution : Linux, Mac OS X</li>
+<li>Standards :</li>
+<li>Domaines d'applications :</li>
+<li>Applications et marchés visés : Mécanique, aéronautique, naval, domaines nécessitant la construction de formes géométriques en général…</li>
+<li>Aspects innovants : Fonctionnalités de CAO et de représentation algébrique et possède une architecture modulaire (plugins).</li>
+<li>Licences : Licence libre GPL-2.0</li>
+<li>Site Web : http://axel.inria.fr/</li>
+<li>Partenaires : JKU, SINTEF</li>
+</ul>
+</section>
+<section id="blobseer" class="level2">
+<h2>BlobSeer</h2>
+<ul>
+<li>Logo du logiciel :</li>
+<li>Image représentative du logiciel :</li>
+<li>Description technologique : La taille des données n'en finit plus de croître. Elle menace l'efficacité des services de cloud computing et des infrastructures de calcul haute performance à usage scientifique. BlobSeer est un système de stockage innovant conçu pour fluidifier les accès massivement parallèles aux données, grâce à des techniques de versioning et de gestion décentralisée des méta-données pour la manipulation concurrente des grands objets binaires qu'on appelle des Blobs. Il a été validé sur des clouds Nimbus, OpenNebula et Microsoft Azure.</li>
+<li>Mots-clés : Gestion distribuée des métadata-données, HPC, MapReduce, Stockage sur clouds</li>
+<li>Contact : Gabriel Antoniu (gabriel.antoniu@inria.fr)</li>
+<li>Centres : CRI Rennes - Bretagne Atlantique</li>
+<li>Structures INRIA impliquées : KERDATA</li>
+<li>Langages : C++, Python (2), Ruby (2)</li>
+<li>Environnements logiciel d'exécution : Linux, Mac OS X</li>
+<li>Standards :</li>
+<li>Domaines d'applications : Big Data et cloud</li>
+<li>Applications et marchés visés : Tout domaine qui nécessite l'analyse de masses de données (Big Data Analytics): la génomique, la neuro-imagerie, l'océanographie ou encore l'astronomie</li>
+<li>Aspects innovants : BlobSeer utilise le versioning et des techniques de gestion décentralisée des données et des méta-données pour assurer un haut débit dans les conditions d'accès massivement concurrent aux données. Quand Hadoop utilise BlobSeer plutôt que HDFS, son propre système de fichiers, les performances augmentent sensiblement.</li>
+<li>Licences : Licence libre LGPL-3.0</li>
+<li>Site Web : http://blobseer.gforge.inria.fr./</li>
+<li>Partenaires : ENS Cachan, Université de Rennes 1</li>
+</ul>
+</section>
+<section id="bocop" class="level2">
+<h2>BOCOP</h2>
+<ul>
+<li>Logo du logiciel :<br />
+</li>
+<li>Image représentative du logiciel :<br />
+</li>
+<li>Description technologique : Boite à outils pour l'optimisation de systèmes dynamiques contrôlés. Coeur de calcul performant et interface utilisateur avancée. Adapté pour un usage académique et industriel.</li>
+<li>Mots-clés : Boîte à outils, Contrôle, Optimisation</li>
+<li>Contact : Pierre Martinon (pierre.martinon@inria.fr)</li>
+<li>Centres : CRI Saclay - Île-de-France</li>
+<li>Structures INRIA impliquées : COMMANDS</li>
+<li>Langages : C++</li>
+<li>Environnements logiciel d'exécution : Linux, Mac OS X, Windows</li>
+<li>Standards :</li>
+<li>Domaines d'applications :</li>
+<li>Applications et marchés visés : transport, énergie, génie des procédés, biologie</li>
+<li>Aspects innovants : boite à outils polyvalente, algorithmes de pointe, interface graphique avancée.</li>
+<li>Licences : Licence libre EPL-1.0</li>
+<li>Site Web : http://bocop.org</li>
+<li>Partenaires : CMAP</li>
+</ul>
+</section>
+<section id="coccinelle" class="level2">
+<h2>Coccinelle</h2>
+<ul>
+<li>Logo du logiciel :<br />
+</li>
+<li>Image représentative du logiciel :<br />
+</li>
+<li>Description technologique : Coccinelle est un outil de recherche et de transformation de programmes C. Il est utilisé pour trouver des bugs et réaliser des évolutions dans le code du noyau Linux.</li>
+<li>Mots-clés : Logiciel d’infrastructure, Qualité du code, évolution</li>
+<li>Contact : Julia Lawall (Julia.Lawall@inria.fr)</li>
+<li>Centres : CRI de Paris</li>
+<li>Structures INRIA impliquées : IRILL, REGAL</li>
+<li>Langages : Objective Caml (74445), Python (1183)</li>
+<li>Environnements logiciel d'exécution : Debian, Linux, Mac OS X, Windows</li>
+<li>Standards :</li>
+<li>Domaines d'applications :</li>
+<li>Applications et marchés visés : Développement de grands logiciels, Recherche de bugs, Évolution et rénovation du code, Métriques, Analyse de logiciels.</li>
+<li>Aspects innovants : Spécifications faciles a écrire en termes de règles reposant sur du code C. Passage à l’échelle sur des millions de lignes.</li>
+<li>Licences : Licence libre GPL-2.0</li>
+<li>Site Web : http://coccinelle.lip6.fr</li>
+<li>Partenaires : IRILL, LIP6</li>
+</ul>
+</section>
+<section id="coco" class="level2">
+<h2>COCO</h2>
+<ul>
+<li>Logo du logiciel :</li>
+<li>Image représentative du logiciel :</li>
+<li>Description technologique :</li>
+<li>Mots-clés :</li>
+<li>Contact : Dimo Brockhoff (Dimo.Brockhoff@inria.fr)</li>
+<li>Centres : CRI Lille - Nord Europe, CRI Saclay - Île-de-France</li>
+<li>Structures INRIA impliquées : DOLPHIN, TAO</li>
+<li>Langages : C (17300), Java (1100), MATLAB (840), Octave (840), Python (22000)</li>
+<li>Environnements logiciel d'exécution : Cygwin, Linux, Mac OS X, Windows</li>
+<li>Standards :</li>
+<li>Domaines d'applications :</li>
+<li>Applications et marchés visés :</li>
+<li>Aspects innovants :</li>
+<li>Licences : Licence libre BSD-2-Clause</li>
+<li>Site Web : https://github.com/numbbo/coco</li>
+<li>Partenaires : Université technique de Dortmund, Université technique de Prague</li>
+</ul>
+</section>
+<section id="coq" class="level2">
+<h2>COQ</h2>
+<ul>
+<li>Logo du logiciel :<br />
+</li>
+<li>Image représentative du logiciel :<br />
+</li>
+<li>Description technologique : Coq offre tout à la fois un langage de programmation fonctionnelle à types dépendants et un formalisme logique qui, ensemble, permettent tout autant le développement de théories mathématiques que la spécification et la certification de propriétés de programmes. Coq fournit aussi un ensemble vaste et extensible de méthodes de preuve. Les programmes de Coq sont extractibles vers OCaml, Haskell, Scheme...</li>
+<li>Mots-clés : Certification, Formalisation, Preuve</li>
+<li>Contact : Hugo Herbelin (Hugo.Herbelin@inria.fr)</li>
+<li>Centres : CRI de Paris</li>
+<li>Structures INRIA impliquées : PI.R2</li>
+<li>Langages : Coq (200), Objective Caml (200)</li>
+<li>Environnements logiciel d'exécution : Linux, Mac OS X, Windows</li>
+<li>Standards :</li>
+<li>Domaines d'applications :</li>
+<li>Applications et marchés visés : Formalisation des mathématiques, certification de propriétés des programmes, enseignement de la logique et des langages de programmation à l'université Formalisation complète du théorème de l'ordre impair en théorie des groupes, certification d'un compilateur C</li>
+<li>Aspects innovants : Coq a reçu le prix ACM-SIGPLAN 2013 du meilleur langage de programmation pour son langage hybride programmation/logique original et pour ses outils de preuve et de spécification de haut niveau (langages de tactiques, systèmes de notations...)</li>
+<li>Licences : Licence libre LGPL-2.1</li>
+<li>Site Web : http://coq.inria.fr</li>
+<li>Partenaires : CNRS, ENS Lyon, Université Paris-Diderot, Université Paris-Sud</li>
+</ul>
+</section>
+<section id="corese" class="level2">
+<h2>CORESE</h2>
+<ul>
+<li>Logo du logiciel :<br />
+</li>
+<li>Image représentative du logiciel :<br />
+</li>
+<li>Description technologique : CORESE est un moteur de recherche web sémantique implémentant des langages de base tels que RDF, RDFS et SPARQL.</li>
+<li>Mots-clés : Moteur de recherche, RDF, SPARQL, Web sémantique</li>
+<li>Contact : Fabien Gandon (Fabien.Gandon@inria.fr)</li>
+<li>Centres : CRI Sophia Antipolis - Méditerranée</li>
+<li>Structures INRIA impliquées : EDELWEISS</li>
+<li>Langages : Java (50)</li>
+<li>Environnements logiciel d'exécution : Linux, Mac OS X, Windows</li>
+<li>Standards :</li>
+<li>Domaines d'applications :</li>
+<li>Applications et marchés visés : Totalement génériques et indépendants du domaine : e-learning, biologie, géologie, ingénierie, etc</li>
+<li>Aspects innovants : CORESE travaille grâce à une représentation en graphes conceptuels. Les opérations sont effectuées en mémoire vive = rapidité.</li>
+<li>Licences : Licence libre CeCILL-C</li>
+<li>Site Web : http://www-sop.inria.fr/edelweiss/software/corese</li>
+<li>Partenaires : CSTB, I3S, IFP, IGN, INRA</li>
+</ul>
+</section>
+<section id="distem" class="level2">
+<h2>Distem</h2>
+<ul>
+<li>Logo du logiciel :<br />
+</li>
+<li>Image représentative du logiciel :<br />
+</li>
+<li>Description technologique : Distem est un émulateur pour systèmes distribués. Il permet de transformer un cluster homogène (composé de nœuds identiques) en une plate-forme expérimentale où les nœuds ont des performances différentes, et sont reliés par un réseau de topologie complexe. Cela en fait l'outil idéal pour évaluer des applications visant ce type d'environnements.</li>
+<li>Mots-clés : Expérimentation, Virtualisation, émulation</li>
+<li>Contact : Luc Sarzyniec (luc.sarzyniec@loria.fr)</li>
+<li>Centres : CRI Nancy - Grand Est</li>
+<li>Structures INRIA impliquées : ALGORILLE</li>
+<li>Langages : Ruby (8000)</li>
+<li>Environnements logiciel d'exécution : Linux</li>
+<li>Standards :</li>
+<li>Domaines d'applications :</li>
+<li>Applications et marchés visés : : test d'applications Cloud, P2P ou HPC</li>
+<li>Aspects innovants : les nœuds ont des performances différentes, et sont reliés par un réseau de topologie complexe. Cela en fait l'outil idéal pour évaluer des applications visant ce type d'environnements.</li>
+<li>Licences : Licence libre GPL-3.0</li>
+<li>Site Web : http://distem.gforge.inria.fr</li>
+<li>Partenaires : CNRS, Grid'5000, Inria, Loria, Université de Lorraine</li>
+</ul>
+</section>
+<section id="familiar" class="level2">
+<h2>FAMILIAR</h2>
+<ul>
+<li>Logo du logiciel :</li>
+<li>Image représentative du logiciel :</li>
+<li>Description technologique : Environnement pour synthétiser des variantes de produits : que ce soit des séquences vidéo des interfaces graphiques, des logiciels ou même les produits manufacturés (impression 3D)</li>
+<li>Mots-clés : Configurateurs, Customisation, Ligne de produits logiciels</li>
+<li>Contact : Mathieu Acher (Mathieu.Acher@irisa.fr)</li>
+<li>Centres : CRI Rennes - Bretagne Atlantique</li>
+<li>Structures INRIA impliquées : DIVERSE</li>
+<li>Langages : Java</li>
+<li>Environnements logiciel d'exécution : Eclipse</li>
+<li>Standards :</li>
+<li>Domaines d'applications : Génie logiciel, objets connectés, réseaux</li>
+<li>Applications et marchés visés : - configurateurs : vente de produits customisés via des configurateurs web - comparateurs web - industrie du logiciel - ligne de produits embarquant ou utilisant du logiciel dans sa chaine de production</li>
+<li>Aspects innovants : - Familiar permet de modéliser les options et les contraintes d’une famille de produits grâce à un langage simple et un environnement dédié. Les modèles élaborés peuvent notamment être visualisés, vérifiés, et exploités pour dériver des variantes de produits. - Familiar permet de migrer facilement des projets logiciels existants, potentiellement hautement configurables, vers une approche ligne de produits et offrir un ensemble plus large et mieux maîtrisé d’options car l’outil permet de ré-ingénierier automatiquement les artefacts existants (code source, fichiers de configuration, tableaux de comparaison, etc.) dans l'environnement ligne de produits. - L'environnement Familiar n'est pas restreint à un type de produit et peut donc être facilement étendu à une problématique métier précise.</li>
+<li>Licences : Licence libre LGPL-2.1</li>
+<li>Site Web : http://familiar-project.github.com</li>
+<li>Partenaires :</li>
+</ul>
+</section>
+<section id="gnu-mpfr" class="level2">
+<h2>GNU-MPFR</h2>
+<ul>
+<li>Logo du logiciel :<br />
+</li>
+<li>Image représentative du logiciel :<br />
+</li>
+<li>Description technologique : Bibliothèque de calcul sur des nombres à virgule flottante en précision arbitraire, avec arrondi correct, basée sur la bibliothèque GMP.</li>
+<li>Mots-clés : Calcul</li>
+<li>Contact : Paul Zimmermann (paul.zimmermann@inria.fr)</li>
+<li>Centres : CRI Nancy - Grand Est</li>
+<li>Structures INRIA impliquées : ARENAIRE, CARAMEL</li>
+<li>Langages : C</li>
+<li>Environnements logiciel d'exécution : Linux, Mac OS X, Unix, Windows</li>
+<li>Standards :</li>
+<li>Domaines d'applications :</li>
+<li>Applications et marchés visés : calcul formel (utilisée notamment par GCC et SAGE).</li>
+<li>Aspects innovants : Implémente toutes les fonctions mathématiques de C99. Supporte les nombres spéciaux (0 signé, infinis, NaN). Le résultat est correct quel que soit le mode d’arrondi ANSI/IEEE-754 choisi.</li>
+<li>Licences : Licence libre LGPL-3.0</li>
+<li>Site Web : http://www.mpfr.org/</li>
+<li>Partenaires : CNRS, LIP</li>
+</ul>
+</section>
+<section id="hop" class="level2">
+<h2>Hop</h2>
+<ul>
+<li>Logo du logiciel :<br />
+</li>
+<li>Image représentative du logiciel :<br />
+</li>
+<li>Description technologique : Langage de programmation utilisant le web comme plate-forme d’exécution visant des applications multimédia interactives</li>
+<li>Mots-clés : Bureautique, Domotique, Multimédias, Web 2.0</li>
+<li>Contact : Yoann Couillec (yoann.couillec@inria.fr)</li>
+<li>Centres : CRI Sophia Antipolis - Méditerranée</li>
+<li>Structures INRIA impliquées : INDES</li>
+<li>Langages : C, Java</li>
+<li>Environnements logiciel d'exécution : Android, Linux, Mac OS X, Windows</li>
+<li>Standards :</li>
+<li>Domaines d'applications :</li>
+<li>Applications et marchés visés : Application web</li>
+<li>Aspects innovants : HOP offre, dans une syntaxe unique, toutes les fonctionnalités nécessaires à la programmation d’applications multimédia depuis les protocoles de communication jusqu’à l’algorithmique classique en passant par la génération de pages HTML</li>
+<li>Licences : Licence libre GPL-2.0</li>
+<li>Site Web : http://hop.inria.fr/</li>
+<li>Partenaires :</li>
+</ul>
+</section>
+<section id="hwloc" class="level2">
+<h2>hwloc</h2>
+<ul>
+<li>Logo du logiciel :</li>
+<li>Image représentative du logiciel :<br />
+</li>
+<li>Description technologique : HWLOC découvre la topologie de vos ordinateurs et la représente de manière hiérarchique et portable.</li>
+<li>Mots-clés : Affinités, GPU, HPC, Open MPI, Topologie</li>
+<li>Contact : Brice Goglin (Brice.Goglin@inria.fr)</li>
+<li>Centres : CRI Bordeaux - Sud-Ouest</li>
+<li>Structures INRIA impliquées : RUNTIME</li>
+<li>Langages : C (40000), OpenMPI</li>
+<li>Environnements logiciel d'exécution :</li>
+<li>Standards :</li>
+<li>Domaines d'applications :</li>
+<li>Applications et marchés visés : l’objectif principal d’HWLOC est d’aider les applications à obtenir des informations facilement compréhensibles sur l’architecture des machines modernes de calcul afin de les exploiter de manière plus adaptée et efficace.</li>
+<li>Aspects innovants : l’utilisateur peut visualiser la topologie dans une interface graphique, et la manipuler pour consulter différents paramètres de l’ordinateur.</li>
+<li>Licences : Licence libre BSD-3-Clause</li>
+<li>Site Web : http://www.open-mpi.org/projects/hwloc/</li>
+<li>Partenaires :</li>
+</ul>
+</section>
+<section id="kadeploy" class="level2">
+<h2>Kadeploy</h2>
+<ul>
+<li>Logo du logiciel :<br />
+</li>
+<li>Image représentative du logiciel :<br />
+</li>
+<li>Description technologique : Kadeploy est un système de déploiement scalable, efficace et fiable pour les clusters de grande taille et les grilles. Il fournit un ensemble d'outils pour cloner, configurer et gérer des nœuds d'un cluster. Il peut déployer un cluster de 300 nœuds en quelques minutes, sans intervention de l'administrateur système. Linux, *BSD, Windows et Solaris sont supportés.</li>
+<li>Mots-clés : Déploiement de clusters</li>
+<li>Contact : Emmanuel Jeanvoine (emmanuel.jeanvoine@inria.fr)</li>
+<li>Centres : CRI Nancy - Grand Est, CRI Saclay - Île-de-France</li>
+<li>Structures INRIA impliquées : ALGORILLE</li>
+<li>Langages : Ruby</li>
+<li>Environnements logiciel d'exécution : Linux</li>
+<li>Standards :</li>
+<li>Domaines d'applications :</li>
+<li>Applications et marchés visés : datacentres, clusters HPC, Clouds privés</li>
+<li>Aspects innovants : Sur la plate-forme expérimentale Grid'5000, Kadeploy3 permet aux utilisateurs de reconfigurer leur environnement expérimental en installant leur propre pile logicielle sur les nœuds, pour la durée d'une expérience</li>
+<li>Licences : Licence libre CeCILL</li>
+<li>Site Web : http://kadeploy3.gforge.inria.fr</li>
+<li>Partenaires : CNRS, Grid'5000, Inria, Loria, Université de Lorraine</li>
+</ul>
+</section>
+<section id="mixmod" class="level2">
+<h2>Mixmod</h2>
+<ul>
+<li>Logo du logiciel :<br />
+</li>
+<li>Image représentative du logiciel :<br />
+</li>
+<li>Description technologique : Mixmod permet de traiter des problématiques de classification supervisée et non supervisée pour des données quantitatives et qualitatives.</li>
+<li>Mots-clés : Classification, Data mining, Données mixtes, Modélisation de données</li>
+<li>Contact : Christophe Biernacki (Christophe.Biernacki@inria.fr)</li>
+<li>Centres : CRI Saclay - Île-de-France</li>
+<li>Structures INRIA impliquées : SELECT</li>
+<li>Langages : C++, MATLAB, R, Scilab</li>
+<li>Environnements logiciel d'exécution : Linux, Windows</li>
+<li>Standards :</li>
+<li>Domaines d'applications :</li>
+<li>Applications et marchés visés : Composants logiciels destinés à l’une ou l’autre des catégories: - Utilisation dans des projets réels, industriels - Utilisation (/reconnaissance) par les experts</li>
+<li>Aspects innovants : Mixmod est composé d'une bibliothèque de calcul (mixmodLib) et d'outils adaptés à un large spectre d'utilisateurs et de besoins : une interface graphique conviviale (mixmodGUI), des fonctions pour les environnements R (Rmixmod) et Matlab (mixmodForMatlab).</li>
+<li>Licences : Licence libre GPL-3.0</li>
+<li>Site Web : http://www.mixmod.org</li>
+<li>Partenaires : HEUDIASYC, LIFL, LMB, Laboratoire Paul Painlevé</li>
+</ul>
+</section>
+<section id="mmg3d" class="level2">
+<h2>MMG3D</h2>
+<ul>
+<li>Logo du logiciel :</li>
+<li>Image représentative du logiciel :<br />
+</li>
+<li>Description technologique : Ce remailleur tétraédrique permet de générer rapidement des maillages isotropes ou anisotropes comprenant plusieurs millions d’éléments. Il permet aussi de simuler le déplacement de corps rigides dans l’espace.</li>
+<li>Mots-clés : Adaptation de maillage anisotrope, HPC, Maillage</li>
+<li>Contact : Cecile Dobrzynski (Cecile.Dobrzynski@inria.fr)</li>
+<li>Centres : CRI Bordeaux - Sud-Ouest</li>
+<li>Structures INRIA impliquées : BACCHUS</li>
+<li>Langages : C (45000)</li>
+<li>Environnements logiciel d'exécution : Linux, Mac OS X</li>
+<li>Standards :</li>
+<li>Domaines d'applications :</li>
+<li>Applications et marchés visés : modification et simulation numérique en aéronautique, automobile, aérothermie,…</li>
+<li>Aspects innovants : MMG3D permet de générer des maillages anisotropes adaptés à une carte de taille variable. L’utilisation des modifications locales lors du traitement du maillage rend le code exceptionnellement robuste.</li>
+<li>Licences : Licence libre GPL-3.0</li>
+<li>Site Web : http://www.math.u-bordeaux1.fr/~dobj/logiciels/mmg3d.php</li>
+<li>Partenaires : CNRS, IPB, UPMC, Université de Bordeaux</li>
+</ul>
+</section>
+<section id="module-cgal-triangulation-périodique-3d-fr-cgal-package-3d-periodic-triangulations-en" class="level2">
+<h2>Module CGAL : Triangulation Périodique 3D (fr) / CGAL Package : 3D Periodic Triangulations (en)</h2>
+<ul>
+<li>Logo du logiciel :<br />
+</li>
+<li>Image représentative du logiciel :<br />
+</li>
+<li>Description technologique : Ce module de la bibliothèque CGAL (Computational Geometry Algorithms Library http://www.cgal.org) permet de construire et manipuler des triangulations périodiques dont le domaine fondamental est un cube en 3D. Les triangulations sont construites incrémentiellement et peuvent être modifiées par insertion et suppression de sommets. Elles permettent de répondre à des requêtes de localisation de points. Le module fournit des triangulations de Delaunay et offre des recherches de plus proches voisins, ainsi que des primitives pour construire les diagrammes de Voronoï duaux.</li>
+<li>Mots-clés : Diagramme de Voronoï, Tore plat, Triangulation, Triangulation de Delaunay</li>
+<li>Contact : Monique Teillaud (Monique.Teillaud@inria.fr)</li>
+<li>Centres : CRI Sophia Antipolis - Méditerranée</li>
+<li>Structures INRIA impliquées : GEOMETRICA</li>
+<li>Langages : C++ (9000)</li>
+<li>Environnements logiciel d'exécution : Cygwin, Debian, Fedora, Linux, Mac OS X, Unix, Windows</li>
+<li>Standards :</li>
+<li>Domaines d'applications :</li>
+<li>Applications et marchés visés : - Tous les domaines nécessitant des triangulations avec des conditions de bord périodiques : physique des particules, astrophysique, dynamique des fluides, modélisation moléculaire... - Tous les domaines nécessitant des triangulations de structures périodiques, telles que les nano-structures.</li>
+<li>Aspects innovants : Ce module est à notre connaissance le seul logiciel publiquement accessible fournissant de telles fonctionnailtés. Il présente une totale robustesse arithmétique et traite les données dégénérées.</li>
+<li>Licences : Licence libre GPL-3.0</li>
+<li>Site Web : http://doc.cgal.org/latest/Manual/packages.html#PkgPeriodic3Triangulation3Summary</li>
+<li>Partenaires :</li>
+</ul>
+</section>
+<section id="moose" class="level2">
+<h2>Moose</h2>
+<ul>
+<li>Logo du logiciel :<br />
+</li>
+<li>Image représentative du logiciel :<br />
+</li>
+<li>Description technologique : Moose est une plate-forme ouverte et extensible pour l'analyse logicielle et de données, intégrant des modèles de langages, des métriques, d’algorithmes, des moteurs de visualisation et de navigation.</li>
+<li>Mots-clés : Méta-modélisation, Rétro-ingénierie, Visualisation du logiciel</li>
+<li>Contact : Stephane Ducasse (Stephane.ducasse@inria.fr)</li>
+<li>Centres : CRI Lille - Nord Europe</li>
+<li>Structures INRIA impliquées : RMOD</li>
+<li>Langages : Smalltalk</li>
+<li>Environnements logiciel d'exécution : Linux, Mac OS X, Windows</li>
+<li>Standards :</li>
+<li>Domaines d'applications :</li>
+<li>Applications et marchés visés : Moose est maintenant utilisé dans plusieurs groupes de recherche et les entreprises à travers le monde pour la recherche, l'enseignement et l'analyse réelle des systèmes de la vie réelle.</li>
+<li>Aspects innovants : Moose is an extensive platform for software and data analysis. It offers multiple services ranging from importing and parsing data, to modeling, to measuring, querying, mining, and to building interactive and visual analysis tools.</li>
+<li>Licences : Licence libre BSD-3-Clause</li>
+<li>Site Web : http://www.moosetechnology.org</li>
+<li>Partenaires : Pleiad, Sensus, Synectique, USI, Université de Berne, Vrije Universiteit Brussel</li>
+</ul>
+</section>
+<section id="mumps" class="level2">
+<h2>MUMPS</h2>
+<ul>
+<li>Logo du logiciel :</li>
+<li>Image représentative du logiciel :<br />
+</li>
+<li>Description technologique : MUMPS est une librairie logicielle qui permet de résoudre des systèmes d’équations de la forme Ax=b, où A est une matrice creuse de grande taille, sur calculateurs séquentiels ou parallèles. MUMPS implante une méthode directe appelée méthode multifrontale. Ses caractéristiques principales sont constituées par sa stabilité numérique, sa large couverture applicative, son grand nombre de fonctionnalités, et son évolution constante au travers de la recherche et des retours de sa communauté d’utilisateurs. Ce logiciel est utilisé dans le monde entier, dans des codes de calcul académiques et industriels, dans de nombreux domaines d’applications liés à la simulation numérique : mécanique des structures, géophysique, optimisation numérique, électromagnétisme, mécanique des fluides, simulation du vivant, etc. MUMPS est développé par l'INPT(ENSEEIHT)-IRIT, INRIA, le CERFACS, l'Université de Bordeaux, le CNRS et l'ENS Lyon.</li>
+<li>Mots-clés : Calcul Hautes Performances, Matrice creuse, Modélisation par éléments finis, Solveurs directs</li>
+<li>Contact : Jean-Yves L'excellent (jean-yves.lexcellent@inria.fr)</li>
+<li>Centres : CRI Grenoble - Rhône-Alpes</li>
+<li>Structures INRIA impliquées : GRAAL</li>
+<li>Langages : C (15000), Fortran (200000)</li>
+<li>Environnements logiciel d'exécution : Mac OS X, Unix, Windows</li>
+<li>Standards :</li>
+<li>Domaines d'applications :</li>
+<li>Applications et marchés visés : Informatique / Autre</li>
+<li>Aspects innovants : MUMPS est un solveur dit direct, utilisé mondialement dans de nombreux domaines liés à la simulation numérique, aussi bien dans des codes académiques qu'industriels. Ses caractéristiques principales sont stabilité numérique, grand nombre de fonctionnalité et performance.</li>
+<li>Licences : Licence libre CeCILL-C</li>
+<li>Site Web : http://graal.ens-lyon.fr/MUMPS</li>
+<li>Partenaires : CERFACS, CNRS, ENS Lyon, ENSEEIHT, IRIT, LIP</li>
+</ul>
+</section>
+<section id="ns-3" class="level2">
+<h2>ns-3</h2>
+<ul>
+<li>Logo du logiciel :<br />
+</li>
+<li>Image représentative du logiciel :<br />
+</li>
+<li>Description technologique : NS-3 est un simulateur réseau qui permet la validation et l’optimisation de protocoles réseau (WiFi, WiMAX, TCP/IP, LTE, etc).</li>
+<li>Mots-clés : Evènements discrets, Protocoles internet, Simulateur réseau, émulation</li>
+<li>Contact : Walid Dabbous (Walid.Dabbous@inria.fr)</li>
+<li>Centres : CRI Sophia Antipolis - Méditerranée</li>
+<li>Structures INRIA impliquées : PLANETE</li>
+<li>Langages : C++</li>
+<li>Environnements logiciel d'exécution : Linux, Mac OS X, Windows</li>
+<li>Standards :</li>
+<li>Domaines d'applications :</li>
+<li>Applications et marchés visés : Réseaux, Télécommunications, Militaire, Transport, etc.</li>
+<li>Aspects innovants : NS-3 permet de simuler des modèles réseau en temps réel (mode émulation) et d’échanger des paquets réels avec le protocole simulé.</li>
+<li>Licences : Licence libre GPL-2.0</li>
+<li>Site Web : http://www.nsnam.org/</li>
+<li>Partenaires : CT, CTTC, INESCPORTO LA, Université de Washington</li>
+</ul>
+</section>
+<section id="oar" class="level2">
+<h2>OAR</h2>
+<ul>
+<li>Logo du logiciel :<br />
+</li>
+<li>Image représentative du logiciel :<br />
+</li>
+<li>Description technologique : Gestionnaire de ressources et de tâches pour les infrastructures de calcul.</li>
+<li>Mots-clés : Cloud, Clusters, Gestionnaire de ressources, Grille légère, HPC</li>
+<li>Contact : Olivier Richard (olivier.richard@imag.fr)</li>
+<li>Centres : CRI Grenoble - Rhône-Alpes</li>
+<li>Structures INRIA impliquées : MESCAL</li>
+<li>Langages : Bash, Objective Caml (50000), Perl (50000), Ruby (50000), SQL (50000)</li>
+<li>Environnements logiciel d'exécution : Unix</li>
+<li>Standards :</li>
+<li>Domaines d'applications :</li>
+<li>Applications et marchés visés : Exploitation des infrastructures pour le calcul à haute performance.</li>
+<li>Aspects innovants : Polyvalence, personnalisation, passage à l'échelle, maîtrise de la complexité, ordonnanceur adaptable pour optimiser la consommation</li>
+<li>Licences : Licence libre GPL-2.0</li>
+<li>Site Web : http://oar.imag.fr</li>
+<li>Partenaires : CIMENT, CNRS, Grid'5000, LIG</li>
+</ul>
+</section>
+<section id="ocaml" class="level2">
+<h2>Ocaml</h2>
+<ul>
+<li>Logo du logiciel :<br />
+</li>
+<li>Image représentative du logiciel :<br />
+</li>
+<li>Description technologique : Le langage OCaml est un langage de programmation fonctionnelle qui combine expressivité et sûreté de programmation au moyen d'un système de types précis et souple, avec inférence automatique des types. Le système OCaml est une implémentation très complète de ce langage, incluant deux compilateurs (un vers une machine virtuelle, pour le prototypage rapide et l'utilisation interactive, l'autre produisant du code machine très efficace pour x86, ARM, PowerPC et SPARC), un débogueur, un générateur de documentation, un gestionnaire de compilation, un gestionnaire de packages, et de nombreuses bibliothèques développées par la communauté des utilisateurs.</li>
+<li>Mots-clés : Analyse statique, Calcul symbolique, Compilation, Programmation fonctionnelle, Typage statique</li>
+<li>Contact : Xavier Leroy (Xavier.Leroy@inria.fr)</li>
+<li>Centres : CRI de Paris</li>
+<li>Structures INRIA impliquées : GALLIUM</li>
+<li>Langages : C, Ocaml</li>
+<li>Environnements logiciel d'exécution : BSD, Linux, Mac OS X, Windows</li>
+<li>Standards :</li>
+<li>Domaines d'applications :</li>
+<li>Applications et marchés visés : Calcul symbolique : compilateurs, générateurs automatiques de code, analyseurs statiques, vérificateurs de programmes, démonstration automatique, assistants de preuve, etc. Programmation système, réseau et Web de haut niveau. OCaml est aussi utilisé dans l'industrie financière, notamment pour la modélisation et le pricing de produits financiers complexes.</li>
+<li>Aspects innovants : OCaml est l'un des trois langages fonctionnels les plus utilisés au monde, et le seul qui combine les styles de programmation fonctionnels, impératifs et par objets au sein d'un même système de types.</li>
+<li>Licences : Licence libre QPL-1.0, Licence libre LGPL-3.0, Licence libre BSD-3-Clause</li>
+<li>Site Web : http://ocaml.org/</li>
+<li>Partenaires :</li>
+</ul>
+</section>
+<section id="openvibe" class="level2">
+<h2>OpenVIBE</h2>
+<ul>
+<li>Logo du logiciel :</li>
+<li>Image représentative du logiciel :</li>
+<li>Description technologique : OpenViBE est une plate-forme logicielle pour créer, tester et utiliser des interfaces cerveau ordinateur (commandes des ordinateurs par l’activité cérébrale) et des applications de neurosciences temps-réel. Le signal cérébral peut être acquis en temps-réel à partir de différents matériels (EEG, MEG), puis est traité (débruitage, extraction de données, classification, visualisation) pour produire des informations ou des commandes à envoyer à une application ou à un système.</li>
+<li>Mots-clés : EEG, Interaction, Interactions 3D, Interface Homme-Machine, Neurofeedback, Neurosciences, Programmation graphique, Réalité virtuelle, Santé, Temps réel, Traitement du signal</li>
+<li>Contact : Anatole Lecuyer (anatole.lecuyer@inria.fr)</li>
+<li>Centres : CRI Rennes - Bretagne Atlantique, CRI Sophia Antipolis - Méditerranée, CRI Nancy - Grand Est, CRI Bordeaux - Sud-Ouest</li>
+<li>Structures INRIA impliquées : ATHENA, CORTEX, HYBRID, NEUROSYS, POTIOC</li>
+<li>Langages : C++ (206000), Lua (2300), MATLAB (1300), Python (1300)</li>
+<li>Environnements logiciel d'exécution : Linux, Windows</li>
+<li>Standards :</li>
+<li>Domaines d'applications : Multimédia, Santé et bien-être, industries culturelles et créatives</li>
+<li>Applications et marchés visés : Handicap, Santé, Neurosciences, Robotique, Multimédia, jeux vidéo, etc.</li>
+<li>Aspects innovants : Le logiciel se démarque par sa grande modularité, sa compatibilité avec de nombreux matériel et OS. Open-source, OpenViBE construit une communauté d'utilisateurs et de développeurs-contributeurs (ajouts de plugins de traitement, ou bien driver pour de nouveaux matériels d'acquisition). OpenViBE propose une interface graphique simple pour les non-programmeurs.</li>
+<li>Licences : Licence libre AGPL-3.0</li>
+<li>Site Web : http://openvibe.inria.fr</li>
+<li>Partenaires : CEA-List, GIPSA-Lab, INSERM</li>
+</ul>
+</section>
+<section id="paradiseo" class="level2">
+<h2>ParadisEO</h2>
+<ul>
+<li>Logo du logiciel :<br />
+</li>
+<li>Image représentative du logiciel :<br />
+</li>
+<li>Description technologique : ParadisEO est une plate-forme logicielle facilitant l’utilisation, le développement et la comparaison de métaheuristiques (algorithmes d’optimisation visant à résoudre des problèmes d’optimisation difficiles) classiques, multiobjectifs, parallèles et hybrides.</li>
+<li>Mots-clés : Métaheuristiques, Parallélisation</li>
+<li>Contact : El-Ghazali Talbi (El-Ghazali.Talbi@inria.fr)</li>
+<li>Centres : CRI Lille - Nord Europe</li>
+<li>Structures INRIA impliquées : DOLPHIN</li>
+<li>Langages : C++, Cmake</li>
+<li>Environnements logiciel d'exécution : Mac OS X, Unix, Windows</li>
+<li>Standards :</li>
+<li>Domaines d'applications :</li>
+<li>Applications et marchés visés : ParadisEO est utilisé pour la résolution de problèmes d’optimisation de grande taille issus de nombreux domaines, tels que : le transport, la logistique, les systèmes de télécommunication ou la bioinformatique.</li>
+<li>Aspects innovants : ParadisEO offre des implémentations de nombreuses métaheuristiques classiques de la littérature ainsi que des métaheuristiques novatrices. ParadisEO permet également la parallélisation des métaheuristiques.</li>
+<li>Licences : Licence libre CeCILL</li>
+<li>Site Web : http://paradiseo.gforge.inria.fr/</li>
+<li>Partenaires : CNRS, Université Lille 1</li>
+</ul>
+</section>
+<section id="pastix" class="level2">
+<h2>PaStiX</h2>
+<ul>
+<li>Logo du logiciel :<br />
+</li>
+<li>Image représentative du logiciel :<br />
+</li>
+<li>Description technologique : PaStiX est un solveur direct qui s’utilise pour résoudre des systèmes numériquement difficiles en parallèle. En gardant les qualités intrinsèques d’une méthode directe (robustesse), il consomme moins de mémoire ce qui lui permet de résoudre des problèmes de très grande taille. Par exemple, le solveur PaStiX est capable de résoudre un problème industriel réel 3D à 80M d'inconnues.</li>
+<li>Mots-clés : Algèbre linéaire, Calcul haute performance, Factorisation, Matrices Creuses, Solveur de Systèmes Linéaires</li>
+<li>Contact : Xavier Lacoste (Xavier.Lacoste@inria.fr)</li>
+<li>Centres : CRI Bordeaux - Sud-Ouest</li>
+<li>Structures INRIA impliquées : BACCHUS</li>
+<li>Langages : C (150000), Fortran</li>
+<li>Environnements logiciel d'exécution :</li>
+<li>Standards :</li>
+<li>Domaines d'applications :</li>
+<li>Applications et marchés visés : Toutes applications nécessitant la résolution de systèmes de très grande taille (MHD, mécanique des fluides/structures, électromagnétisme…).</li>
+<li>Aspects innovants : PaStiX s’adapte aux différentes architectures: ses algorithmes lui permettent par exemple de s’affranchir du problème des hétérogénéités des grappes. Très évolutif, PaStiX est particulièrement bien adapté aux serveurs multicoeurs, il pourra de plus utiliser les processeurs des cartes graphiques. PaStiX résout un point bloquant qui est le surcoût mémoire lié au parallélisme.</li>
+<li>Licences : Licence libre CeCILL-C</li>
+<li>Site Web : http://pastix.gforge.inria.fr/</li>
+<li>Partenaires : Université Bordeaux 1</li>
+</ul>
+</section>
+<section id="pharo" class="level2">
+<h2>Pharo</h2>
+<ul>
+<li>Logo du logiciel :<br />
+</li>
+<li>Image représentative du logiciel :<br />
+</li>
+<li>Description technologique : Pharo est un langage et un environnement de programmation dynamique, propre, innovant, gratuit et open-source avec lequel des applications professionnelles sont développées.</li>
+<li>Mots-clés : Système réflexif</li>
+<li>Contact : Stephane Ducasse (stephane.ducasse@inria.fr)</li>
+<li>Centres : CRI Lille - Nord Europe</li>
+<li>Structures INRIA impliquées : RMOD</li>
+<li>Langages : C (1), Smalltalk (481000)</li>
+<li>Environnements logiciel d'exécution : IOS, Mac OS X, Unix, Windows</li>
+<li>Standards : Smalltalk ANSI 1996</li>
+<li>Domaines d'applications :</li>
+<li>Applications et marchés visés : Développement Web enseignement bureau serveurs</li>
+<li>Aspects innovants : En fournissant un système stable et un noyau simple, des outils de développement excellents, et des mises à jour régulières, Pharo est une plateforme attrayante pour créer et déployer des applications critiques.</li>
+<li>Licences : Licence libre MIT</li>
+<li>Site Web : http://www.pharo-project.org</li>
+<li>Partenaires : BetaNine, Debris publishing, HR Works, MAD, Pleiad, Sensus, Université de Berne, Uqbar foundation Argentina, Vmware, Yesplan</li>
+</ul>
+</section>
+<section id="riot" class="level2">
+<h2>RIOT</h2>
+<ul>
+<li>Logo du logiciel :<br />
+</li>
+<li>Image représentative du logiciel :<br />
+</li>
+<li>Description technologique : RIOT est un système d'exploitation Open Source qui offre des protocoles standards pour les systèmes embarqués et l'Internet des objets (IoT). RIOT permet de développer facilement des applications collectant des informations de capteurs et de les transmettre à un système central (un serveur). Les données ainsi collectées peuvent être utilisées,, par exemple, pour la gestion intelligente d’énergie d'un batiment. RIOT est spécialement conçu pour les systèmes embarqués, qui sont très contraints en mémoire et énergie. De plus, RIOT peut être porté aisément sur des matériels différents et sur les dernières évolutions des standards IP. RIOT peut être expérimenté sur FIT IoT-Lab, une plate forme ouverte comportant 3000 nœuds qui est conçue pour développer, tester et valider à distances des protocoles à grande échelle.</li>
+<li>Mots-clés : Capteurs, Collecte de données issues de capteurs, Internet des objets, IoT, Protocoles internet, Système d'exploitation</li>
+<li>Contact : Emmanuel Baccelli (Emmanuel.Baccelli@inria.fr)</li>
+<li>Centres : CRI Nancy - Grand Est, CRI Saclay - Île-de-France</li>
+<li>Structures INRIA impliquées : MADYNES, INFINE</li>
+<li>Langages : C, C++</li>
+<li>Environnements logiciel d'exécution :</li>
+<li>Standards :</li>
+<li>Domaines d'applications :</li>
+<li>Applications et marchés visés : IoT Objets connectés Domotique Automatisation Systemes embarqués Mobilité</li>
+<li>Aspects innovants : RIOT demande une très faible quantité de mémoire vive pour fonctionner (minimum 1,5 kB).Grâce à RIOT et aux progrès matériels récents, des objets du quotidien vont pouvoir être très facilement connectés entre eux, ou aux smartphones par exemple, et des applications simples pourront utiliser cette extension du réseau global. La force de RIOT est de pouvoir connecter et exploiter efficacement une très large gamme d’objets, hétérogènes en termes de ressource mémoire et de capacité de calcul dédiées, et en termes d’architectures système, allant du 16 bit au 32 bit.</li>
+<li>Licences : Licence libre LGPL-2.1</li>
+<li>Site Web : http://www.riot-os.org</li>
+<li>Partenaires : Freie Universität Berlin</li>
+</ul>
+</section>
+<section id="scikit-learn" class="level2">
+<h2>Scikit-learn</h2>
+<ul>
+<li>Logo du logiciel :<br />
+</li>
+<li>Image représentative du logiciel :<br />
+</li>
+<li>Description technologique : Scikit-learn peut être utilisé comme un middleware pour des tâches de prédiction. Par exemple, un grand nombre de start-ups du web s’approprient Scikitlearn pour prédire des comportements d’achat d’utilisateurs, proposer des recommandations de produits ou détecter les tendances ainsi que les comportements abusifs (fraudes, spams, etc.). Scikit-learn sert à extraire la structure de données complexes (textes, images) et à les classifier en utilisant des techniques correspondant à l’état de l’art. Facile à utiliser, efficace et accessible aux non experts de la « science des données » ( data science), Scikit-learn est une bibliothèque d’apprentissage statistique. Dans une étape d’exploration des données, l’utilisateur entre quelques lignes dans une interface interactive (mais non graphique) et peut analyser les résultats de sa requête immédiatement. Scikit-learn est un moteur de prédiction, développé en open source et disponible sous licence BSD.</li>
+<li>Mots-clés : Apprentissage, Classification, Clustering, Imagerie médicale, Régression</li>
+<li>Contact : Olivier Grisel (olivier.grisel@inria.fr)</li>
+<li>Centres : CRI Saclay - Île-de-France</li>
+<li>Structures INRIA impliquées : PARIETAL</li>
+<li>Langages : C, Python (35000)</li>
+<li>Environnements logiciel d'exécution : Debian, Fedora, Linux, Mac OS X, Windows</li>
+<li>Standards :</li>
+<li>Domaines d'applications :</li>
+<li>Applications et marchés visés : Prévision des comportements des utilisateurs E-commerce Lutte anti-spam Détection de la fraude E-mailing de ciblage Amélioration des produits</li>
+<li>Aspects innovants : La vrai valeur ajoutée de Scikit-Learn réside dans la très bonne qualité des fonctions disponibles dans la librairie (très bien documentées) et dans la robustesse et l’efficacité des codes.</li>
+<li>Licences : Licence libre BSD-3-Clause</li>
+<li>Site Web : http://scikit-learn.org</li>
+<li>Partenaires : CEA, Logilab, Nuxeo, Saint Gobain, Telecom Paris, Tinyclues</li>
+</ul>
+</section>
+<section id="scotch" class="level2">
+<h2>SCOTCH</h2>
+<ul>
+<li>Logo du logiciel :<br />
+</li>
+<li>Image représentative du logiciel :<br />
+</li>
+<li>Description technologique : Scotch est un partitionneur de graphes. Il permet d'optimiser le découpage d'un problème, modélisé par un graphe, en un ensemble de sous-problèmes les plus indépendants possibles et de tailles équivalentes. Ces sous-problèmes peuvent éventuellement être résolus en parallèle.</li>
+<li>Mots-clés : Algorithmique de graphes, Calcul haute performance, Décomposition de domaines, Partitionnement de maillages, Renumérotation de matrices creuses</li>
+<li>Contact : Francois Pellegrini (Francois.Pellegrini@inria.fr)</li>
+<li>Centres : CRI Bordeaux - Sud-Ouest</li>
+<li>Structures INRIA impliquées : BACCHUS</li>
+<li>Langages : C (106000)</li>
+<li>Environnements logiciel d'exécution :</li>
+<li>Standards :</li>
+<li>Domaines d'applications :</li>
+<li>Applications et marchés visés : Répartition de la charge de calcul d'un problème scientifique sur les processeurs d'une machine parallèle, placement de circuits VLSI, optimisation combinatoire, etc...</li>
+<li>Aspects innovants : Scotch calcule des partitionnements sur machine séquentielle, et PT-Scotch sur machine parallèle. PT-Scotch peut manipuler de très grands graphes (2 milliards de sommets et au delà), sur plusieurs dizaines de milliers de processeurs. La qualité des solutions fournies par PT-Scotch ne dépend pas du nombre de processeurs sur lesquels il s'exécute.</li>
+<li>Licences : Licence libre CeCILL-C</li>
+<li>Site Web : http://www.labri.fr/~pelegrin/scotch/</li>
+<li>Partenaires : CNRS, IPB, Region Aquitaine</li>
+</ul>
+</section>
+<section id="simgrid" class="level2">
+<h2>SimGrid</h2>
+<ul>
+<li>Logo du logiciel :<br />
+</li>
+<li>Image représentative du logiciel :<br />
+</li>
+<li>Description technologique : Simulateur d’environnements hétérogènes à large échelle, dédié à la conception et à l’expérimentation d’applications distribuées.</li>
+<li>Mots-clés : Applications distribuées, Grid Computing</li>
+<li>Contact : Arnaud Legrand (arnaud.legrand@inria.fr)</li>
+<li>Centres : CRI Nancy - Grand Est</li>
+<li>Structures INRIA impliquées : ALGORILLE, GRAAL</li>
+<li>Langages : C, C++</li>
+<li>Environnements logiciel d'exécution : IRIX, Linux, Mac OS X, Solaris, Unix, Windows</li>
+<li>Standards :</li>
+<li>Domaines d'applications :</li>
+<li>Applications et marchés visés : Tous domaines utilisant des ressources largement distribuées (P2P, clusters, grilles, clouds).</li>
+<li>Aspects innovants : SimGrid offre un cadre générique et donne accès à un environnement totalement contrôlé, assurant ainsi la complète reproductibilité des résultats.</li>
+<li>Licences : Licence libre LGPL-2.1</li>
+<li>Site Web : http://simgrid.gforge.inria.fr/</li>
+<li>Partenaires : CNRS, Femto-st, University of Hawaii, Université de Nancy, Université de Reims Champagne-Ardenne</li>
+</ul>
+</section>
+<section id="sofa" class="level2">
+<h2>SOFA</h2>
+<ul>
+<li>Logo du logiciel :<br />
+</li>
+<li>Image représentative du logiciel :<br />
+</li>
+<li>Description technologique : SOFA est une plate-forme de recherche et développement dédiée aux simulations physiques interactives, et en particulier à la simulation médicale.</li>
+<li>Mots-clés : Biomécanique, GPU, Surgétique</li>
+<li>Contact : Stephane Cotin (Stephane.Cotin@inria.fr)</li>
+<li>Centres : CRI Lille - Nord Europe</li>
+<li>Structures INRIA impliquées : ASCLEPIOS, EVASION, S.H.A.M.A.N</li>
+<li>Langages : C++</li>
+<li>Environnements logiciel d'exécution : Mac OS X, Unix, Windows</li>
+<li>Standards :</li>
+<li>Domaines d'applications :</li>
+<li>Applications et marchés visés : apprentissage et planification d’interventions médicales, bio-mécanique, jeux vidéos, ..</li>
+<li>Aspects innovants : SOFA regroupe de nombreux algorithmes issus de domaines de recherche variés. Des modèles de nature différente peuvent être combinés de façon à produire des simulations complexes qui restent compatibles avec des temps de calcul optimaux.</li>
+<li>Licences : Licence libre LGPL-2.1, Licence libre GPL-2.0</li>
+<li>Site Web : http://www.sofa-framework.org</li>
+<li>Partenaires : CIMIT, CSIRO, IGG</li>
+</ul>
+</section>
+<section id="verdandi" class="level2">
+<h2>Verdandi</h2>
+<ul>
+<li>Logo du logiciel :</li>
+<li>Image représentative du logiciel :<br />
+</li>
+<li>Description technologique : Verdandi est une bibliothèque C++ de méthodes d'assimilation de données. Ces méthodes permettent de coupler un ou plusieurs modèles numériques et des données d'observation. Verdandi propose aussi des outils pour faciliter la mise en place de l'assimilation, notamment pour la gestion des observations et l'estimation des incertitudes a priori. Le logiciel peut être utilisé avec des modèles écrits en Fortran, C, C++ ou Python.</li>
+<li>Mots-clés : Composants Logiciels, HPC</li>
+<li>Contact : Isabelle Herlin (Isabelle.Herlin@inria.fr)</li>
+<li>Centres : CRI de Paris</li>
+<li>Structures INRIA impliquées : CLIME</li>
+<li>Langages : C++ (22000), Python</li>
+<li>Environnements logiciel d'exécution : JVM, Linux, Mac OS X, Windows</li>
+<li>Standards :</li>
+<li>Domaines d'applications :</li>
+<li>Applications et marchés visés : Utilisation avec tout modèle, généralement de grande dimension, à coupler avec des observations, pour l'estimation d'état ou la modélisation inverse.</li>
+<li>Aspects innovants : La généricité de la bibliothèque la rend adaptée à un large spectre de modèles (langage, types des données, parallélisation, ...). Les performances de calcul ne sont pas diminuées par cette généricité.</li>
+<li>Licences : Licence libre LGPL-2.1</li>
+<li>Site Web : http://verdandi.gforge.inria.fr/</li>
+<li>Partenaires :</li>
+</ul>
+</section>
+<section id="verit" class="level2">
+<h2>veriT</h2>
+<ul>
+<li>Logo du logiciel :<br />
+</li>
+<li>Image représentative du logiciel :<br />
+</li>
+<li>Description technologique : VeriT est un solveur SMT (Satisfaisabilité Modulo Théories) ouvert et efficace, avec des procédures de décision efficaces pour les symboles non-interprétés et l'arithmétique linéaire</li>
+<li>Mots-clés : Déduction automatique, Résolution de formules, Vérification</li>
+<li>Contact : Pascal Fontaine (Pascal.Fontaine@inria.fr)</li>
+<li>Centres : CRI Nancy - Grand Est</li>
+<li>Structures INRIA impliquées : MODEL</li>
+<li>Langages : C (50000)</li>
+<li>Environnements logiciel d'exécution : Cygwin, Linux, Mac OS X, Windows</li>
+<li>Standards :</li>
+<li>Domaines d'applications :</li>
+<li>Applications et marchés visés : Tous les domaines nécessitant la résolution de grandes formules logiques avec prédicats interprétés (par ex. de l'arithmétique)</li>
+<li>Aspects innovants : solveur produisant des preuves pour les formules quantifiées ou non, avec symboles non-interprétés et de l'arithmétique linéaire sur les entiers et les réels, ainsi que leur combinaison</li>
+<li>Licences : Licence libre BSD-3-Clause</li>
+<li>Site Web : http://www.verit-solver.org/</li>
+<li>Partenaires : Université de Lorraine, Université fédérale de Rio de Janeiro</li>
+</ul>
+</section>
+<section id="visp" class="level2">
+<h2>ViSP</h2>
+<ul>
+<li>Logo du logiciel :</li>
+<li>Image représentative du logiciel :</li>
+<li>Description technologique : ViSP est une librairie modulaire dédiée au prototypage et à la mise en œuvre d'applications exploitant les techniques de suivi d’objets et d'asservissement visuel au cœur des recherches menées par le projet Lagadic. L’asservissement visuel permet de commander en temps-réel un système robotique équipé d’une caméra ou de tout autre capteur fournissant des images, à partir d’informations extraites des images acquises. Ainsi ViSP permet d’acquérir des images, de les traiter afin de suivre des objets 2D voire 3D lorsqu’on dispose d’un modèle, de calculer leur position et leur orientation dans l’espace, de construire des lois de commande à appliquer à un robot pour le positionner par rapport à une cible observée dans l’image et de suivre la cible lorsqu’elle est mobile. Pour cela, ViSP met à disposition des utilisateurs des outils mathématiques, de manipulation d’images, de simulation, des algorithmes de traitement d’images et de vision par ordinateur et un panel complet de primitives visuelles pour l’asservissement visuel. Afin d’étendre ses fonctionnalités, ViSP propose également des passerelles vers d’autres logiciels libres comme OpenCV, ou vers des frameworks comme ROS ou YARP.</li>
+<li>Mots-clés : Asservissement visuel, Robotique, Réalité augmentée, Vision par ordinateur</li>
+<li>Contact : Fabien Spindler (fabien.spindler@inria.fr)</li>
+<li>Centres : CRI Rennes - Bretagne Atlantique</li>
+<li>Structures INRIA impliquées : LAGADIC</li>
+<li>Langages : C++ (339551)</li>
+<li>Environnements logiciel d'exécution : Linux, Mac OS X, Windows</li>
+<li>Standards :</li>
+<li>Domaines d'applications : Usine du futur et robotique</li>
+<li>Applications et marchés visés : Robotique, vision par ordinateur, réalité augmentée, animation.</li>
+<li>Aspects innovants : ViSP permet le proto-typage rapide de tâches d’asservissements visuels. ViSP inclut entre autres des modules permettant de calculer les lois de commande à envoyer au robot, des algorithmes de traitement d’images et de vision par ordinateur pour réaliser le suivi d’objets, estimer une pose ou une homographie en temps-réel. ViSP inclut également des outils de visualisation et de simulation.</li>
+<li>Licences : Licence libre GPL-2.0, Licence propriétaire</li>
+<li>Site Web : http://visp.inria.fr</li>
+<li>Partenaires : Université de Rennes 1</li>
+</ul>
+</section>
+<section id="why3" class="level2">
+<h2>Why3</h2>
+<ul>
+<li>Logo du logiciel :</li>
+<li>Image représentative du logiciel :<br />
+</li>
+<li>Description technologique : WHY est une boîte à outils pour la preuve de programmes. Elle permet de prouver, en utilisant des outils externes de démonstration automatique ou semi-automatique de théorèmes, qu'un code respecte des spécifications formelles du comportement attendu.</li>
+<li>Mots-clés : Développement de logiciels sûrs, Méthodes formelles</li>
+<li>Contact : Jean-Christophe Filliatre (filliatr@lri.fr)</li>
+<li>Centres : CRI Saclay - Île-de-France</li>
+<li>Structures INRIA impliquées : PROVAL</li>
+<li>Langages : Ocaml</li>
+<li>Environnements logiciel d'exécution : Linux, Mac OS X, Windows</li>
+<li>Standards :</li>
+<li>Domaines d'applications :</li>
+<li>Applications et marchés visés : Transports, énergies, santé, finance.</li>
+<li>Aspects innovants : La vraie valeur ajoutée de WHY réside dans son approche modulaire et sa capacité à disposer de plusieurs entrées (C, Java, …) et plusieurs prouveurs en sortie (automatiques, interactifs).</li>
+<li>Licences : Licence libre LGPL-2.1</li>
+<li>Site Web : http://why3.lri.fr/</li>
+<li>Partenaires : Adacore, CEA, CNRS, OCamlPro, Université Paris-Sud</li>
+</ul>
+</section>
+</div><!--this is the closing .slides div-->
+
+<aside id="presentable-icon" class="revealjs">
+    <a title="Table of Contents" href="#/0/1">
+        <img alt="Table of Contents" src="img/inria.png"/>
+    </a>
+</aside>
+
+
+<script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    touch: true,
+    hideAddressBar: true,
+    viewDistance: 1,
+    width: 960,
+    height: 700,
+  	// Factor of the display size that should remain empty around the content
+  	margin: 0.1,
+  	// Bounds for smallest/largest possible scale to apply to content
+  	minScale: 0.2,
+  	maxScale: 1.0,
+
+  // available themes are in /css/theme
+      theme: Reveal.getQueryHash().theme || 'inria',
+
+  // default/cube/page/concave/zoom/linear/fade/none
+      transition: Reveal.getQueryHash().transition || 'linear',
+
+  // Optional libraries used to extend on reveal.js
+  dependencies: [
+    { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+    { src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+    { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+    { src: 'plugin/presentable/presentable.js', callback: function() { presentable.toc({framework: "revealjs"}); } },
+    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+    { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+    { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+    // { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+  ]
+  });
+
+</script>
+
+</body>
+</html>
