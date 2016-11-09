@@ -24,9 +24,7 @@ html {
 }
 
 @page {
-  size: A5 landscape;
-	margin-top: 10mm; margin-bottom: 10mm;
-	margin-left: 10mm; margin-right: 10mm;
+  size: landscape ;
 }
 
 /* Remove any elements not needed in print. */
