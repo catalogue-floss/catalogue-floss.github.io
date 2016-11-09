@@ -79,7 +79,7 @@ body {
 }
 
 .reveal summary {
-  margin: 10px 15px 10px 10px;
+  margin: 15px 15px 10px 15px;
   color: #D2001E;
   font-family: "League Gothic", Impact, sans-serif;
   line-height: 0.9em;
@@ -216,6 +216,30 @@ body {
   	overflow: hidden;
   	text-overflow:"zzz";
   }
+
+.reveal li.alpha{
+      display:inline;
+      clear:left;
+      float:left;
+      margin-bottom:0px;
+      -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
+      column-count:2;
+      break-before:column;
+      overflow: hidden;
+}
+
+.reveal ul.alpha{
+      display:inline;
+      clear:left;
+      float:left;
+      margin-bottom:0px;
+      -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
+      column-count:2;
+      break-before:column;
+      overflow: hidden;
+}
 
 
 
