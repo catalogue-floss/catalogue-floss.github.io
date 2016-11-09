@@ -64,7 +64,7 @@ ul, ol, div, p {
 }
 .reveal .slides {
 	position: static;
-	width: 100%;
+	width: 50%;
 	height: auto;
 
 	left: auto;
