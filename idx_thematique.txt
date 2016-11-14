@@ -1,15 +1,15 @@
-#Regroupement des logiciels en clusters thÃ©matiques ou fonctionnels
-AlgÃ¨bre linÃ©aire (solveurs matriciels): Eigen, Mumps, Pastix, Scotch
-BCI (Interface cerveau ordinateur): OpenVibe
-Maillages: Axel, CGAL, Felisce, FreeFem++, MMG3D
-Langages / IDE: Familiar, GNU-MPFR Library, Hop, Moose, OCaml, Pharo, PowerAPI
-Simulateurs: Distem, Mecsyc, NS-3, Open Alea, Siconos, Simgrid, Sofa
-Big data / HPC / Grilles: BlobSeer, Hwloc, Kadeploy, OAR, StarPU
-Machine learning / optimisation: Bocop, COCO, MixMod, Paradiseo, Scikit-Learn
-IoT (Internet des objets): AspireRFID,  Riot
-Preuves / vÃ©rification de code: Coccinelle, Coq, VeriT, Why3
-Image et vidÃ©o (analyse, crÃ©ation): Inria MVS/PMVS, Natron
-GÃ©nomique: GATB
-Analyse de donnÃ©es / ontologies: Alignapi, Corese, Verdandi, WebSmatch
-Robotique: ViSP
-Vie privÃ©e: Belenios, AmIUnique
+#Regroupement des logiciels en clusters thématiques ou fonctionnels
+Algèbre linéaire (solveurs matriciels):Eigen, Mumps, Pastix, Scotch
+BCI (Interface cerveau ordinateur):OpenVibe
+Maillages:Axel, Module CGAL, Felisce, FreeFem++, MMG3D
+Langages / IDE:Familiar, GNU-MPFR, Hop, Moose, OCaml, Pharo, PowerAPI
+Simulateurs:Distem, Mecsyco-RE-java, NS-3, OpenAlea, Siconos, Simgrid, Sofa
+Big data / HPC / Grilles:BlobSeer, Hwloc, Kadeploy, OAR, StarPU
+Machine learning / optimisation:Bocop, COCO, MixMod, Paradiseo, Scikit-Learn
+IoT (Internet des objets):AspireRFID ALE, Riot
+Preuves / vérification de code:Coccinelle, Coq, VeriT, Why3
+Image et vidéo (analyse, création):Inria-MVS, Natron
+Génomique:GATB-Core
+Analyse de données / ontologies:Alignment API, Corese, Verdandi, WebSmatch
+Robotique:ViSP
+Vie privée:Belenios, Amiunique
