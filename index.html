@@ -1462,6 +1462,7 @@ Thèmes    </a>
     { src: 'plugin/presentable/presentable.js', callback: function() { presentable.toc({framework: "revealjs"}); } },
     { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
     { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+  //  { src: 'plugin/search/search.js', async: true },
     { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
     // { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
   ]
