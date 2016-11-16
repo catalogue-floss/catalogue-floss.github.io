@@ -118,7 +118,7 @@ body {
 /*********************************************
  * IMAGES
  *********************************************/
-.reveal section img {
+/*.reveal section img {
   background: rgba(255, 255, 255, 0.12);
   border: 0px solid #93a1a1;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
@@ -127,11 +127,16 @@ body {
   -ms-transition: all .2s linear;
   -o-transition: all .2s linear;
   transition: all .2s linear;
-  max-width: 100%;
+  /*max-width: 100%;
      height: auto;
-      width: 10%;
-    }
+      width: 10%; */
+/*  max-height:200px;
+    	max-width:400px;
+    	width:auto;
+    	height:auto;
 
+    }
+*/
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
   border-color: #268bd2;
@@ -197,7 +202,22 @@ body {
 .bil-SoftIllustrationLabel {display: none;}
 .bil-SoftStandard {display: none;}
 .bil-SoftMainScope {display: none;}
-.bil-SoftIllustration {display: none;}
+/*.bil-SoftIllustration {display: none;} */
+
+.bil-SoftIllustrationValue  img {
+	display:block;
+	max-height:200px;
+	max-width:400px;
+	width:auto;
+	height:auto;
+	//float:  right;
+	left:auto;
+	right:auto;
+	margin-left:Auto;
+	margin-right:Auto;
+	margin-top:0px;
+	margin-bottom:0px;
+	}
 
 .bil-software{
   	width:1000px;
@@ -285,6 +305,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: uppercase;
     text-shadow: none;
+    text-align: left;
   }
 
 .reveal .bil-SoftName a {
@@ -296,6 +317,8 @@ body {
     letter-spacing: 0.02em;
     text-transform: uppercase;
     text-shadow: none;
+    text-align: left;
+
   	}
 
 /*
@@ -371,7 +394,7 @@ body {
   	width:auto;
   	height:auto;
 
-  	top:-20px;
+  /*	top:-20px; */
   	left:auto;
   	right:auto;
   	padding-top:20px;
