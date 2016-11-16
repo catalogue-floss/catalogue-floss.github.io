@@ -1,0 +1,174 @@
+
+html, body {
+ margin:0;
+ padding:0;
+ }
+* {
+    box-sizing: border-box;
+}
+// Impression PDF testée: Google Chrome
+// DoPDF V7
+// Marges d'impressions testées  H:0,5mm; D:1mm; B:0,1mm; G:0,5mm
+
+body {
+  counter-reset: page;
+}
+
+@page {
+  size: A5 landscape;
+  margin-top: 0mm; margin-bottom: 0mm; 
+  margin-left: 0mm; margin-right: 0mm;
+  }
+}
+
+body {
+	background-color:white;
+}
+
+.bil-SoftCenter {display: none;}
+.bil-SoftTeam {display: none;}
+.bil-SoftIllustrationLabel {display: none;}
+.bil-SoftStandard {display: none;}
+.bil-SoftMainScope {display: none;}	
+
+.bil-software{
+	width:1000px;
+	height:600px;
+	padding:0px;
+
+}
+.bil-softwareContent{
+	display:block;
+	clear:left;
+	margin-bottom:20px;
+	width:1000px;
+	height:600px;
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+	column-count:2;
+	break-before:column;
+	overflow: hidden;
+	text-overflow:"zzz";
+}
+
+
+.bil-label {
+    border-radius: 10px 10px;
+	margin-right: 5px;
+
+	margin-bottom: 20px;
+	height: 20px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-right: 1px;
+	background-color: YellowGreen;
+	color: white;
+	font-variant: small-caps;
+	font-weight: bold;
+	display:inline;
+	break-before:auto;
+	-webkit-column-break-after:avoid-column;
+	break-after:avoid-column;
+	font-family: "Calibri" , fantasy;
+	}
+.bil-SoftName{
+	background-image: url(Line03.jpg);
+	width:1000px;
+	min-width:1000px;
+	max-width:1000px;
+	min-height:66px;
+	display:block;
+	color: white;
+	margin-top:30px;
+	page-break-before:always;
+}
+.bil-SoftName a {
+	color:white;
+	padding-top:25px;
+	padding-bottom:25px;
+	padding-right:25px;
+	padding-left:25px;
+	text-decoration: none;
+	font-size:2em;
+	}
+
+.bil-value {
+	font-family: "Calibri" , Monospace;
+	margin-bottom: 20px;
+	color:black;
+	display:inline;
+	break-before:avoid-column;
+	-webkit-column-break-before:avoid-column;
+	overflow: hidden;
+	text-overflow:"zzz";
+
+	}
+
+ul {
+    list-style: none; /* Remove list bullets */
+}
+
+li {
+	margin-top: 1px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	margin-bottom: 15px;
+}
+
+.bil-label:before {
+    content: "→"; /* Insert content that looks like bullets */
+    padding-right: 8px;
+	padding-top: 1px;
+	margin-top: 20px;
+	padding-bottom: 1px;
+	margin-bottom: 20px;
+	border-color:white;
+    color: white; 
+	-webkit-column-break-after:avoid-column;
+	break-after:avoid-column;
+	}
+
+.bil-SoftIllustrationValue  img {
+	display:block;
+	max-height:200px;
+	max-width:400px;
+	width:auto;
+	height:auto;
+	//float:  right;
+	left:auto;
+	right:auto;
+	margin-left:Auto;
+	margin-right:Auto;
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+	
+.bil-SoftLogoValue img {
+    border-radius: 15px;
+	display:block;
+	position:relative;
+	max-height:70px;
+	max-width:200px;
+	width:auto;
+	height:auto;
+
+	top:-50px;
+	left:auto;
+	right:auto;
+	padding-top:20px;
+	padding-right:20px;
+	padding-left:20px;
+	padding-bottom:5px;
+	margin-left:Auto;
+	margin-right:Auto;
+	margin-bottom:0;
+	background-color:white;
+	border:1px;
+	border-color:1px;
+
+	}
+.bil-SoftName-begin-page{
+	color:green;
+	page-break-before:always;
+}	
+
