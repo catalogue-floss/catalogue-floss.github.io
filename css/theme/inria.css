@@ -43,9 +43,6 @@ body {
   /*********************************************
    * Rstephane
    *********************************************/
-.reveal .slides {
-   text-align:center
-   }
 
 .reveal li {
     list-style: none;
@@ -54,7 +51,7 @@ body {
 
 .reveal label
 {
-  margin: 0 5px 20px 0;
+  margin: 0 5px 20px 0
   color: #000;
   font-family: "League Gothic", Impact, sans-serif;
   line-height: 0.9em;
