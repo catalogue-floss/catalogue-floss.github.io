@@ -43,6 +43,9 @@ body {
   /*********************************************
    * Rstephane
    *********************************************/
+.reveal .slides {
+   text-align:center
+   }
 
 .reveal li {
     list-style: none;
@@ -58,6 +61,9 @@ body {
   letter-spacing: 0.02em;
   /* text-transform: uppercase; */
   text-shadow: none;
+/* border-radius: 8px; */
+padding-left:8px;
+padding-right:5px;
 }
 
 /*********************************************
